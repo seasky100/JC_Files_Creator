@@ -268,7 +268,7 @@
 								<w:szCs w:val="32" />
 								<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 							</w:rPr>
-							<w:t>${</w:t>
+							<w:t>${m_Land_type_info}</w:t>
 						</w:r>
 						<w:r>
 							<w:rPr>
@@ -277,7 +277,7 @@
 								<w:sz w:val="32" />
 								<w:szCs w:val="32" />
 							</w:rPr>
-							<w:t>m_Land_type_info</w:t>
+							<w:t></w:t>
 						</w:r>
 						<w:r>
 							<w:rPr>
@@ -287,7 +287,7 @@
 								<w:szCs w:val="32" />
 								<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 							</w:rPr>
-							<w:t>}</w:t>
+							<w:t></w:t>
 						</w:r>
 						<w:r>
 							<w:rPr>

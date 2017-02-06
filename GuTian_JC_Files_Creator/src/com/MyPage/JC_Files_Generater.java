@@ -234,6 +234,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		CreateNewRegister.setText("\u521b\u5efa\u7acb\u6848\u5448\u6279\u8868");
 		CreateNewRegister
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						CreateNewRegisterActionPerformed(evt);
 					}
@@ -727,6 +728,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		CreateCaseReport.setText("\u521b\u5efa\u8c03\u67e5\u62a5\u544a");
 		CreateCaseReport.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				CreateCaseReportActionPerformed(evt);
 			}
@@ -1462,6 +1464,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		bt_CreateCase_discution.setText("\u751f\u6210\u6848\u4ef6\u8ba8\u8bba");
 		bt_CreateCase_discution
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreateCase_discutionActionPerformed(evt);
 					}
@@ -1617,6 +1620,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u751f\u6210\u5904\u7406\u51b3\u5b9a\u5448\u6279\u8868");
 		bt_CreatePunish_DecideTable
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreatePunish_DecideTableActionPerformed(evt);
 					}
@@ -1655,6 +1659,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u544a\u77e5\u4e66\u6587\u7a3f\u548c\u544a\u77e5\u4e66");
 		bt_inform_Files_pre
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_inform_Files_preActionPerformed(evt);
 					}
@@ -1733,6 +1738,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u51b3\u5b9a\u4e66\u6587\u7a3f\u548c\u51b3\u5b9a\u4e66");
 		bt_Punish_DecideFiles
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_Punish_DecideFilesActionPerformed(evt);
 					}
@@ -1834,6 +1840,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		bt_Case_Ending.setText("\u751f\u6210\u7ed3\u6848\u5448\u6279\u8868");
 		bt_Case_Ending.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				bt_Case_EndingActionPerformed(evt);
 			}
@@ -1867,6 +1874,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u6ca1\u6536\u8d22\u52a1\u6e05\u5355");
 		bt_create_confiscateTable
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_create_confiscateTableActionPerformed(evt);
 					}
@@ -1876,6 +1884,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u89c4\u5212\u60c5\u51b5\u8bf4\u660e/\u5b97\u5730\u60c5\u51b5\u8bf4\u660e");
 		bt_createPlanSituation_Explain
 				.addActionListener(new java.awt.event.ActionListener() {
+					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_createPlanSituation_ExplainActionPerformed(evt);
 					}
@@ -2315,6 +2324,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 	 */
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				new JC_Files_Generater().setVisible(true);
 			}
