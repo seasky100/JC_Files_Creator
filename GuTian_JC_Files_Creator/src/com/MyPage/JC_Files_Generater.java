@@ -705,7 +705,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		tf_m_Building_covers.setText("xxxxx");
 
 		tf_m_Build_fund
-				.setText("\u623f\u5c4b\u5efa\u8bbe\u6295\u5165\u8d44\u91d1\u7ea618\u4e07\u5143\u3002\uff08\u6216\u65e0\uff09");
+				.setText("\u623f\u5c4b\u5efa\u8bbe\u6295\u5165\u8d44\u91d1\u7ea618\u4e07\u5143\u3002");
 
 		tf_m_house_neighbor_E.setText("xxx");
 

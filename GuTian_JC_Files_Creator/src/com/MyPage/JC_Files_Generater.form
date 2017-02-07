@@ -802,7 +802,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_Build_fund">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x623f;&#x5c4b;&#x5efa;&#x8bbe;&#x6295;&#x5165;&#x8d44;&#x91d1;&#x7ea6;18&#x4e07;&#x5143;&#x3002;&#xff08;&#x6216;&#x65e0;&#xff09;"/>
+                <Property name="text" type="java.lang.String" value="&#x623f;&#x5c4b;&#x5efa;&#x8bbe;&#x6295;&#x5165;&#x8d44;&#x91d1;&#x7ea6;18&#x4e07;&#x5143;&#x3002;"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_house_neighbor_E">
