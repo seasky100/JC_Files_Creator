@@ -42,9 +42,6 @@
   </Layout>
   <SubComponents>
     <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
-      <Properties>
-        <Property name="name" type="java.lang.String" value="null"/>
-      </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
@@ -449,7 +446,7 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel22" pref="79" max="32767" attributes="1"/>
+                                  <Component id="jLabel22" pref="84" max="32767" attributes="1"/>
                                   <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="1"/>
                                   <Component id="jLabel18" alignment="1" min="-2" max="-2" attributes="1"/>
                                   <Component id="jLabel50" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -461,11 +458,11 @@
                                   <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="1">
                                       <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
+                                      <EmptySpace pref="12" max="32767" attributes="0"/>
                                       <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Component id="jLabel48" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel23" min="-2" pref="79" max="-2" attributes="1"/>
+                                  <Component id="jLabel23" alignment="1" min="-2" max="-2" attributes="1"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -513,7 +510,6 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel42" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -638,7 +634,6 @@
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="tf_m_Build_fund" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel23" alignment="3" pref="17" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" max="-2" attributes="0"/>
@@ -713,7 +708,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel23">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x5efa;&#x8bbe;&#x6295;&#x5165;&#x8d44;&#x91d1;"/>
+                <Property name="text" type="java.lang.String" value="&#x6295;&#x5165;&#x8d44;&#x91d1;&#x6216;&#x5176;&#x4ed6;"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel24">
@@ -807,7 +802,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_Build_fund">
               <Properties>
-                <Property name="text" type="java.lang.String" value="xxxxx"/>
+                <Property name="text" type="java.lang.String" value="&#x623f;&#x5c4b;&#x5efa;&#x8bbe;&#x6295;&#x5165;&#x8d44;&#x91d1;&#x7ea6;18&#x4e07;&#x5143;&#x3002;&#xff08;&#x6216;&#x65e0;&#xff09;"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_house_neighbor_E">
@@ -913,11 +908,6 @@
             <Component class="javax.swing.JLabel" name="jLabel44">
               <Properties>
                 <Property name="text" type="java.lang.String" value="&#x5e73;&#x65b9;&#x7c73;"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel45">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x5143;"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_Inves_beginDate">
@@ -1049,7 +1039,7 @@
                           <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel60" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="134" max="32767" attributes="0"/>
+                      <EmptySpace pref="152" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1120,7 +1110,7 @@
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_Meeting_date">
               <Properties>
-                <Property name="text" type="java.lang.String" value="2017&#x5e74;xxx&#x6708;xxx&#x65e5;"/>
+                <Property name="text" type="java.lang.String" value="xxx&#x6708;xxx&#x65e5;"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="tf_m_Land_town">
@@ -1148,7 +1138,7 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="0" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="(x&#x5e74;x&#x6708;x&#x65e5;)"/>
+                <Property name="text" type="java.lang.String" value="(x&#x6708;x&#x65e5;)"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel58">
@@ -1371,9 +1361,6 @@
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel7">
-          <Properties>
-            <Property name="name" type="java.lang.String" value="null"/>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="&#x7ed3;&#x6848;&#x5448;&#x6279;&#x8868;">

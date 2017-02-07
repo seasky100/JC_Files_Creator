@@ -122,7 +122,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		jLabel42 = new javax.swing.JLabel();
 		jLabel43 = new javax.swing.JLabel();
 		jLabel44 = new javax.swing.JLabel();
-		jLabel45 = new javax.swing.JLabel();
 		tf_m_Inves_beginDate = new javax.swing.JTextField();
 		jLabel46 = new javax.swing.JLabel();
 		tf_m_File_Date = new javax.swing.JTextField();
@@ -176,8 +175,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 		setTitle("\u76d1\u5bdf-\u6751\u6c11\u5efa\u623f\u6848\u5377\u751f\u6210\u5668");
 		setResizable(false);
-
-		jTabbedPane1.setName("null");
 
 		jLabel1.setText("\u6848\u5377\u5e74\u4efd");
 
@@ -234,7 +231,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		CreateNewRegister.setText("\u521b\u5efa\u7acb\u6848\u5448\u6279\u8868");
 		CreateNewRegister
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						CreateNewRegisterActionPerformed(evt);
 					}
@@ -671,7 +667,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		jLabel22.setText("\u571f\u5730\u6765\u6e90\u63cf\u8ff0");
 
-		jLabel23.setText("\u5efa\u8bbe\u6295\u5165\u8d44\u91d1");
+		jLabel23.setText("\u6295\u5165\u8d44\u91d1\u6216\u5176\u4ed6");
 
 		jLabel24.setText("\u5efa\u7b51\u9762\u79ef");
 
@@ -708,7 +704,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		tf_m_Building_covers.setText("xxxxx");
 
-		tf_m_Build_fund.setText("xxxxx");
+		tf_m_Build_fund
+				.setText("\u623f\u5c4b\u5efa\u8bbe\u6295\u5165\u8d44\u91d1\u7ea618\u4e07\u5143\u3002\uff08\u6216\u65e0\uff09");
 
 		tf_m_house_neighbor_E.setText("xxx");
 
@@ -728,7 +725,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		CreateCaseReport.setText("\u521b\u5efa\u8c03\u67e5\u62a5\u544a");
 		CreateCaseReport.addActionListener(new java.awt.event.ActionListener() {
-			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				CreateCaseReportActionPerformed(evt);
 			}
@@ -756,8 +752,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		jLabel43.setText("\u5e73\u65b9\u7c73");
 
 		jLabel44.setText("\u5e73\u65b9\u7c73");
-
-		jLabel45.setText("\u5143");
 
 		tf_m_Inves_beginDate.setText("x\u6708x\u65e5");
 
@@ -836,7 +830,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																						.addComponent(
 																								jLabel22,
 																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								79,
+																								84,
 																								Short.MAX_VALUE)
 																						.addComponent(
 																								jLabel19,
@@ -876,7 +870,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																												jLabel34)
 																										.addPreferredGap(
 																												javax.swing.LayoutStyle.ComponentPlacement.RELATED,
-																												javax.swing.GroupLayout.DEFAULT_SIZE,
+																												12,
 																												Short.MAX_VALUE)
 																										.addComponent(
 																												jLabel37))
@@ -885,9 +879,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																								javax.swing.GroupLayout.Alignment.TRAILING)
 																						.addComponent(
 																								jLabel23,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								79,
-																								javax.swing.GroupLayout.PREFERRED_SIZE))
+																								javax.swing.GroupLayout.Alignment.TRAILING))
 																		.addPreferredGap(
 																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
 																		.addGroup(
@@ -1031,8 +1023,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																																								javax.swing.GroupLayout.Alignment.LEADING)
 																																						.addComponent(
 																																								jLabel44)
-																																						.addComponent(
-																																								jLabel45)
 																																						.addComponent(
 																																								jLabel43)
 																																						.addComponent(
@@ -1326,8 +1316,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																								javax.swing.GroupLayout.DEFAULT_SIZE,
 																								javax.swing.GroupLayout.PREFERRED_SIZE)
 																						.addComponent(
-																								jLabel45)
-																						.addComponent(
 																								jLabel23,
 																								javax.swing.GroupLayout.DEFAULT_SIZE,
 																								17,
@@ -1438,7 +1426,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		jLabel56.setText("\u7f5a\u6b3e\u91d1\u989d\u5927\u5199");
 
-		tf_m_Meeting_date.setText("2017\u5e74xxx\u6708xxx\u65e5");
+		tf_m_Meeting_date.setText("xxx\u6708xxx\u65e5");
 
 		tf_m_Land_town.setText("\u5927\u7532\u9547xx");
 
@@ -1450,7 +1438,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u58f9\u4edf\u8d30\u4f70\u53c1\u62fe\u8086xxx");
 
 		jLabel57.setForeground(new java.awt.Color(255, 0, 0));
-		jLabel57.setText("(x\u5e74x\u6708x\u65e5)");
+		jLabel57.setText("(x\u6708x\u65e5)");
 
 		jLabel58.setForeground(new java.awt.Color(255, 0, 0));
 		jLabel58.setText("\u9547");
@@ -1464,7 +1452,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		bt_CreateCase_discution.setText("\u751f\u6210\u6848\u4ef6\u8ba8\u8bba");
 		bt_CreateCase_discution
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreateCase_discutionActionPerformed(evt);
 					}
@@ -1539,7 +1526,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 														.addComponent(jLabel58)
 														.addComponent(jLabel59)
 														.addComponent(jLabel60))
-										.addContainerGap(134, Short.MAX_VALUE)));
+										.addContainerGap(152, Short.MAX_VALUE)));
 		jPanel3Layout
 				.setVerticalGroup(jPanel3Layout
 						.createParallelGroup(
@@ -1620,7 +1607,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u751f\u6210\u5904\u7406\u51b3\u5b9a\u5448\u6279\u8868");
 		bt_CreatePunish_DecideTable
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreatePunish_DecideTableActionPerformed(evt);
 					}
@@ -1659,7 +1645,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u544a\u77e5\u4e66\u6587\u7a3f\u548c\u544a\u77e5\u4e66");
 		bt_inform_Files_pre
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_inform_Files_preActionPerformed(evt);
 					}
@@ -1738,7 +1723,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u51b3\u5b9a\u4e66\u6587\u7a3f\u548c\u51b3\u5b9a\u4e66");
 		bt_Punish_DecideFiles
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_Punish_DecideFilesActionPerformed(evt);
 					}
@@ -1836,11 +1820,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		jTabbedPane1.addTab("\u51b3\u5b9a\u4e66", jPanel6);
 
-		jPanel7.setName("null");
-
 		bt_Case_Ending.setText("\u751f\u6210\u7ed3\u6848\u5448\u6279\u8868");
 		bt_Case_Ending.addActionListener(new java.awt.event.ActionListener() {
-			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				bt_Case_EndingActionPerformed(evt);
 			}
@@ -1874,7 +1855,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u6ca1\u6536\u8d22\u52a1\u6e05\u5355");
 		bt_create_confiscateTable
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_create_confiscateTableActionPerformed(evt);
 					}
@@ -1884,7 +1864,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u89c4\u5212\u60c5\u51b5\u8bf4\u660e/\u5b97\u5730\u60c5\u51b5\u8bf4\u660e");
 		bt_createPlanSituation_Explain
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_createPlanSituation_ExplainActionPerformed(evt);
 					}
@@ -2391,7 +2370,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 	private javax.swing.JLabel jLabel42;
 	private javax.swing.JLabel jLabel43;
 	private javax.swing.JLabel jLabel44;
-	private javax.swing.JLabel jLabel45;
 	private javax.swing.JLabel jLabel46;
 	private javax.swing.JLabel jLabel47;
 	private javax.swing.JLabel jLabel48;
