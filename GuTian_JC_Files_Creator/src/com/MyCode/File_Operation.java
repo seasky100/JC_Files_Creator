@@ -341,8 +341,9 @@ public class File_Operation {
 			dateMap.put("m_base_covers", 
 					buildingInfo.getM_base_covers());/* 占地面积 */
 
-			dateMap.put("m_Land_type_info", 
-					buildingInfo.getM_Land_type_info());/* 地类文本信息 */
+			String DiLeiInfo=buildingInfo.getM_Land_type_info().replace(litigantInfo.getM_Litigant_name(), "你");
+			
+			dateMap.put("m_Land_type_info", DiLeiInfo);/* 地类文本信息 */
 
 			dateMap.put("m_Building_covers",
 					buildingInfo.getM_Building_covers());/* 建筑面积 */

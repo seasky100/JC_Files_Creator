@@ -119,7 +119,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		jScrollPane2 = new javax.swing.JScrollPane();
 		ta_m_Land_origin = new javax.swing.JTextArea();
 		jLabel41 = new javax.swing.JLabel();
-		jLabel42 = new javax.swing.JLabel();
 		jLabel43 = new javax.swing.JLabel();
 		jLabel44 = new javax.swing.JLabel();
 		tf_m_Inves_beginDate = new javax.swing.JTextField();
@@ -138,6 +137,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		cb_isFullTop_no = new javax.swing.JCheckBox();
 		cb_isMoveIn_yes = new javax.swing.JCheckBox();
 		cb_isMoveIn_no = new javax.swing.JCheckBox();
+		jLabel45 = new javax.swing.JLabel();
 		jPanel3 = new javax.swing.JPanel();
 		jLabel52 = new javax.swing.JLabel();
 		jLabel53 = new javax.swing.JLabel();
@@ -231,7 +231,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		CreateNewRegister.setText("\u521b\u5efa\u7acb\u6848\u5448\u6279\u8868");
 		CreateNewRegister
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						CreateNewRegisterActionPerformed(evt);
 					}
@@ -726,7 +725,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		CreateCaseReport.setText("\u521b\u5efa\u8c03\u67e5\u62a5\u544a");
 		CreateCaseReport.addActionListener(new java.awt.event.ActionListener() {
-			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				CreateCaseReportActionPerformed(evt);
 			}
@@ -748,8 +746,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		jLabel41.setForeground(new java.awt.Color(255, 0, 51));
 		jLabel41.setText("(x\u5e74x\u6708)");
-
-		jLabel42.setText("\u5c42");
 
 		jLabel43.setText("\u5e73\u65b9\u7c73");
 
@@ -791,6 +787,9 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		cb_isMoveIn_yes.setText("\u662f");
 
 		cb_isMoveIn_no.setText("\u5426");
+
+		jLabel45.setForeground(new java.awt.Color(255, 0, 51));
+		jLabel45.setText("(\u4f8b:\u4e09\u5c42\u534a)");
 
 		javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(
 				jPanel2);
@@ -924,7 +923,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																																												javax.swing.GroupLayout.PREFERRED_SIZE)
 																																										.addPreferredGap(
 																																												javax.swing.LayoutStyle.ComponentPlacement.RELATED,
-																																												9,
+																																												javax.swing.GroupLayout.DEFAULT_SIZE,
 																																												Short.MAX_VALUE)
 																																										.addComponent(
 																																												jLabel39)
@@ -949,47 +948,47 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																																						.addComponent(
 																																								tf_m_EndBuild_date,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_BeginBuild_date,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								jScrollPane2,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_Build_fund,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_Building_covers,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								jScrollPane1,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_base_covers,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_Building_structure,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addComponent(
 																																								tf_m_Building_floors,
 																																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																																								402,
+																																								398,
 																																								Short.MAX_VALUE)
 																																						.addGroup(
 																																								jPanel2Layout
@@ -1024,13 +1023,13 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																																						.createParallelGroup(
 																																								javax.swing.GroupLayout.Alignment.LEADING)
 																																						.addComponent(
+																																								jLabel45)
+																																						.addComponent(
 																																								jLabel44)
 																																						.addComponent(
 																																								jLabel43)
 																																						.addComponent(
 																																								jLabel36)
-																																						.addComponent(
-																																								jLabel42)
 																																						.addComponent(
 																																								jLabel41)))
 																														.addGroup(
@@ -1106,7 +1105,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 										.addComponent(
 												tf_m_File_Date,
 												javax.swing.GroupLayout.DEFAULT_SIZE,
-												136, Short.MAX_VALUE)
+												137, Short.MAX_VALUE)
 										.addGap(18, 18, 18)
 										.addComponent(jLabel47)
 										.addGap(235, 235, 235)));
@@ -1205,216 +1204,189 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 										.addGroup(
 												jPanel2Layout
 														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																jLabel20,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE)
+														.addComponent(
+																tf_m_Building_floors)
+														.addComponent(jLabel45))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																jLabel21,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE)
+														.addComponent(
+																tf_m_Building_structure,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(jLabel50)
+														.addComponent(
+																cb_isFullTop_yes)
+														.addComponent(
+																cb_isFullTop_no)
+														.addComponent(jLabel51)
+														.addComponent(
+																cb_isMoveIn_yes)
+														.addComponent(
+																cb_isMoveIn_no))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																jLabel26,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE)
+														.addComponent(
+																tf_m_base_covers,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel43))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.TRAILING)
+														.addComponent(
+																jLabel25,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																106,
+																Short.MAX_VALUE)
+														.addComponent(
+																jScrollPane1,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																jLabel24,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE)
+														.addComponent(
+																tf_m_Building_covers,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel44))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																tf_m_Build_fund,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(
+																jLabel23,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
 																javax.swing.GroupLayout.Alignment.LEADING)
-														.addGroup(
-																jPanel2Layout
-																		.createSequentialGroup()
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel20,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								tf_m_Building_floors))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel21,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								tf_m_Building_structure,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel50)
-																						.addComponent(
-																								cb_isFullTop_yes)
-																						.addComponent(
-																								cb_isFullTop_no)
-																						.addComponent(
-																								jLabel51)
-																						.addComponent(
-																								cb_isMoveIn_yes)
-																						.addComponent(
-																								cb_isMoveIn_no))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel26,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								tf_m_base_covers,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel43))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.TRAILING)
-																						.addComponent(
-																								jLabel25,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								106,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								jScrollPane1,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel24,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								tf_m_Building_covers,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel44))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								tf_m_Build_fund,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel23,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.LEADING)
-																						.addComponent(
-																								jScrollPane2,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								120,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel22))
-																		.addPreferredGap(
-																				javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel34,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								17,
-																								Short.MAX_VALUE)
-																						.addComponent(
-																								jLabel37)
-																						.addComponent(
-																								tf_m_house_neighbor_E,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								tf_m_house_neighbor_N,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel40)
-																						.addComponent(
-																								tf_m_house_neighbor_S,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel39)
-																						.addComponent(
-																								tf_m_house_neighbor_W,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel38))
-																		.addGap(18,
-																				18,
-																				18)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel35)
-																						.addComponent(
-																								cb_IsFitPlan_yes)
-																						.addComponent(
-																								cb_IsFitPlan_no))
-																		.addGap(18,
-																				18,
-																				18)
-																		.addGroup(
-																				jPanel2Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.BASELINE)
-																						.addComponent(
-																								jLabel46)
-																						.addComponent(
-																								tf_m_File_Date,
-																								javax.swing.GroupLayout.PREFERRED_SIZE,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								javax.swing.GroupLayout.PREFERRED_SIZE)
-																						.addComponent(
-																								jLabel47))
-																		.addGap(22,
-																				22,
-																				22)
-																		.addComponent(
-																				CreateCaseReport,
-																				javax.swing.GroupLayout.PREFERRED_SIZE,
-																				48,
-																				javax.swing.GroupLayout.PREFERRED_SIZE)
-																		.addGap(62,
-																				62,
-																				62))
-														.addComponent(jLabel42))));
+														.addComponent(
+																jScrollPane2,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																120,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel22))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(
+																jLabel34,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																17,
+																Short.MAX_VALUE)
+														.addComponent(jLabel37)
+														.addComponent(
+																tf_m_house_neighbor_E,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(
+																tf_m_house_neighbor_N,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel40)
+														.addComponent(
+																tf_m_house_neighbor_S,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel39)
+														.addComponent(
+																tf_m_house_neighbor_W,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel38))
+										.addGap(18, 18, 18)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(jLabel35)
+														.addComponent(
+																cb_IsFitPlan_yes)
+														.addComponent(
+																cb_IsFitPlan_no))
+										.addGap(18, 18, 18)
+										.addGroup(
+												jPanel2Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(jLabel46)
+														.addComponent(
+																tf_m_File_Date,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																javax.swing.GroupLayout.DEFAULT_SIZE,
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel47))
+										.addGap(22, 22, 22)
+										.addComponent(
+												CreateCaseReport,
+												javax.swing.GroupLayout.PREFERRED_SIZE,
+												48,
+												javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addGap(62, 62, 62)));
 
 		jTabbedPane1.addTab("\u8c03\u67e5\u62a5\u544a", jPanel2);
 
@@ -1454,7 +1426,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		bt_CreateCase_discution.setText("\u751f\u6210\u6848\u4ef6\u8ba8\u8bba");
 		bt_CreateCase_discution
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreateCase_discutionActionPerformed(evt);
 					}
@@ -1610,7 +1581,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u751f\u6210\u5904\u7406\u51b3\u5b9a\u5448\u6279\u8868");
 		bt_CreatePunish_DecideTable
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_CreatePunish_DecideTableActionPerformed(evt);
 					}
@@ -1649,7 +1619,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u544a\u77e5\u4e66\u6587\u7a3f\u548c\u544a\u77e5\u4e66");
 		bt_inform_Files_pre
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_inform_Files_preActionPerformed(evt);
 					}
@@ -1728,7 +1697,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u521b\u5efa\u51b3\u5b9a\u4e66\u6587\u7a3f\u548c\u51b3\u5b9a\u4e66");
 		bt_Punish_DecideFiles
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_Punish_DecideFilesActionPerformed(evt);
 					}
@@ -1828,7 +1796,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		bt_Case_Ending.setText("\u751f\u6210\u7ed3\u6848\u5448\u6279\u8868");
 		bt_Case_Ending.addActionListener(new java.awt.event.ActionListener() {
-			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				bt_Case_EndingActionPerformed(evt);
 			}
@@ -1862,7 +1829,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u6ca1\u6536\u8d22\u52a1\u6e05\u5355");
 		bt_create_confiscateTable
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_create_confiscateTableActionPerformed(evt);
 					}
@@ -1872,7 +1838,6 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 				.setText("\u89c4\u5212\u60c5\u51b5\u8bf4\u660e/\u5b97\u5730\u60c5\u51b5\u8bf4\u660e");
 		bt_createPlanSituation_Explain
 				.addActionListener(new java.awt.event.ActionListener() {
-					@Override
 					public void actionPerformed(java.awt.event.ActionEvent evt) {
 						bt_createPlanSituation_ExplainActionPerformed(evt);
 					}
@@ -2376,9 +2341,9 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 	private javax.swing.JLabel jLabel4;
 	private javax.swing.JLabel jLabel40;
 	private javax.swing.JLabel jLabel41;
-	private javax.swing.JLabel jLabel42;
 	private javax.swing.JLabel jLabel43;
 	private javax.swing.JLabel jLabel44;
+	private javax.swing.JLabel jLabel45;
 	private javax.swing.JLabel jLabel46;
 	private javax.swing.JLabel jLabel47;
 	private javax.swing.JLabel jLabel48;
