@@ -160,12 +160,15 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		jLabel61 = new javax.swing.JLabel();
 		tf_m_inform_Date = new javax.swing.JTextField();
 		bt_inform_Files_pre = new javax.swing.JButton();
+		jLabel65 = new javax.swing.JLabel();
 		jPanel6 = new javax.swing.JPanel();
 		jLabel62 = new javax.swing.JLabel();
 		tf_m_Decide_Date = new javax.swing.JTextField();
 		bt_Punish_DecideFiles = new javax.swing.JButton();
 		jLabel63 = new javax.swing.JLabel();
 		tf_informSent_Date = new javax.swing.JTextField();
+		jLabel66 = new javax.swing.JLabel();
+		jLabel67 = new javax.swing.JLabel();
 		jPanel7 = new javax.swing.JPanel();
 		bt_Case_Ending = new javax.swing.JButton();
 		jPanel8 = new javax.swing.JPanel();
@@ -1105,7 +1108,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 										.addComponent(
 												tf_m_File_Date,
 												javax.swing.GroupLayout.DEFAULT_SIZE,
-												137, Short.MAX_VALUE)
+												152, Short.MAX_VALUE)
 										.addGap(18, 18, 18)
 										.addComponent(jLabel47)
 										.addGap(235, 235, 235)));
@@ -1624,6 +1627,9 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 					}
 				});
 
+		jLabel65.setForeground(new java.awt.Color(255, 0, 0));
+		jLabel65.setText("(\u4f8b\uff1a\u4e8c\u3007\u4e00\u4e03\u5e74\u56db\u6708\u5341\u516b\u65e5)");
+
 		javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(
 				jPanel5);
 		jPanel5.setLayout(jPanel5Layout);
@@ -1659,7 +1665,10 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																				javax.swing.GroupLayout.PREFERRED_SIZE,
 																				219,
 																				javax.swing.GroupLayout.PREFERRED_SIZE)))
-										.addContainerGap(212, Short.MAX_VALUE)));
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addComponent(jLabel65)
+										.addContainerGap(55, Short.MAX_VALUE)));
 		jPanel5Layout
 				.setVerticalGroup(jPanel5Layout
 						.createParallelGroup(
@@ -1677,7 +1686,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 																tf_m_inform_Date,
 																javax.swing.GroupLayout.PREFERRED_SIZE,
 																javax.swing.GroupLayout.DEFAULT_SIZE,
-																javax.swing.GroupLayout.PREFERRED_SIZE))
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel65))
 										.addGap(114, 114, 114)
 										.addComponent(
 												bt_inform_Files_pre,
@@ -1706,6 +1716,12 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 
 		tf_informSent_Date.setText("2017\u5e74xxx\u6708xxx\u65e5");
 
+		jLabel66.setForeground(new java.awt.Color(255, 0, 0));
+		jLabel66.setText("(\u4f8b\uff1a2017\u5e744\u670818\u65e5)");
+
+		jLabel67.setForeground(new java.awt.Color(255, 0, 0));
+		jLabel67.setText("(\u4f8b\uff1a\u4e8c\u3007\u4e00\u4e03\u5e74\u56db\u6708\u4e8c\u5341\u4e94\u65e5)");
+
 		javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(
 				jPanel6);
 		jPanel6.setLayout(jPanel6Layout);
@@ -1716,45 +1732,46 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 						.addGroup(
 								jPanel6Layout
 										.createSequentialGroup()
-										.addGap(144, 144, 144)
+										.addContainerGap(87, Short.MAX_VALUE)
 										.addGroup(
 												jPanel6Layout
 														.createParallelGroup(
 																javax.swing.GroupLayout.Alignment.TRAILING)
+														.addComponent(jLabel62)
+														.addComponent(jLabel63))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel6Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.LEADING,
+																false)
 														.addComponent(
-																bt_Punish_DecideFiles,
-																javax.swing.GroupLayout.Alignment.LEADING,
-																javax.swing.GroupLayout.DEFAULT_SIZE,
-																329,
-																Short.MAX_VALUE)
-														.addGroup(
-																javax.swing.GroupLayout.Alignment.LEADING,
-																jPanel6Layout
-																		.createSequentialGroup()
-																		.addGroup(
-																				jPanel6Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.TRAILING)
-																						.addComponent(
-																								jLabel63)
-																						.addComponent(
-																								jLabel62))
-																		.addGap(18,
-																				18,
-																				18)
-																		.addGroup(
-																				jPanel6Layout
-																						.createParallelGroup(
-																								javax.swing.GroupLayout.Alignment.LEADING,
-																								false)
-																						.addComponent(
-																								tf_informSent_Date)
-																						.addComponent(
-																								tf_m_Decide_Date,
-																								javax.swing.GroupLayout.DEFAULT_SIZE,
-																								227,
-																								Short.MAX_VALUE))))
-										.addContainerGap(168, Short.MAX_VALUE)));
+																tf_m_Decide_Date)
+														.addComponent(
+																tf_informSent_Date,
+																javax.swing.GroupLayout.PREFERRED_SIZE,
+																243,
+																javax.swing.GroupLayout.PREFERRED_SIZE))
+										.addPreferredGap(
+												javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addGroup(
+												jPanel6Layout
+														.createParallelGroup(
+																javax.swing.GroupLayout.Alignment.LEADING)
+														.addComponent(jLabel67)
+														.addComponent(jLabel66))
+										.addGap(53, 53, 53))
+						.addGroup(
+								jPanel6Layout
+										.createSequentialGroup()
+										.addGap(204, 204, 204)
+										.addComponent(
+												bt_Punish_DecideFiles,
+												javax.swing.GroupLayout.PREFERRED_SIZE,
+												194,
+												javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addContainerGap(243, Short.MAX_VALUE)));
 		jPanel6Layout
 				.setVerticalGroup(jPanel6Layout
 						.createParallelGroup(
@@ -1767,30 +1784,32 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 												jPanel6Layout
 														.createParallelGroup(
 																javax.swing.GroupLayout.Alignment.BASELINE)
-														.addComponent(jLabel63)
+														.addComponent(jLabel66)
 														.addComponent(
 																tf_informSent_Date,
 																javax.swing.GroupLayout.PREFERRED_SIZE,
 																javax.swing.GroupLayout.DEFAULT_SIZE,
-																javax.swing.GroupLayout.PREFERRED_SIZE))
+																javax.swing.GroupLayout.PREFERRED_SIZE)
+														.addComponent(jLabel63))
 										.addGap(37, 37, 37)
 										.addGroup(
 												jPanel6Layout
 														.createParallelGroup(
 																javax.swing.GroupLayout.Alignment.BASELINE)
+														.addComponent(jLabel67)
 														.addComponent(jLabel62)
 														.addComponent(
 																tf_m_Decide_Date,
 																javax.swing.GroupLayout.PREFERRED_SIZE,
 																javax.swing.GroupLayout.DEFAULT_SIZE,
 																javax.swing.GroupLayout.PREFERRED_SIZE))
-										.addGap(97, 97, 97)
+										.addGap(70, 70, 70)
 										.addComponent(
 												bt_Punish_DecideFiles,
 												javax.swing.GroupLayout.PREFERRED_SIZE,
 												97,
 												javax.swing.GroupLayout.PREFERRED_SIZE)
-										.addContainerGap(428, Short.MAX_VALUE)));
+										.addContainerGap(455, Short.MAX_VALUE)));
 
 		jTabbedPane1.addTab("\u51b3\u5b9a\u4e66", jPanel6);
 
@@ -1943,10 +1962,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_isFitPlan(this.cb_isFullTop_yes.isSelected() ? "已封顶"
-				: (this.cb_isFullTop_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-		building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
-				: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
+				: false);/* 是否封顶 */
 
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
@@ -1978,11 +1995,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_isFitPlan(this.cb_isFullTop_yes.isSelected() ? "已封顶"
-				: (this.cb_isFullTop_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-		building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
-				: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
+				: false);/* 是否封顶 */
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
 		building_info.setM_Building_covers(this.tf_m_Building_covers.getText());/* 建筑面积 */
@@ -2035,10 +2049,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_isFitPlan(this.cb_isFullTop_yes.isSelected() ? "已封顶"
-				: (this.cb_isFullTop_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-		building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
-				: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
+				: false);/* 是否封顶 */
 
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
@@ -2127,10 +2139,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_floors(this.tf_m_Building_floors.getText());/* 房屋层数 */
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
-		building_info.setM_isFitPlan(this.cb_isFullTop_yes.isSelected() ? "已封顶"
-				: (this.cb_isFullTop_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-		building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
-				: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
+				: false);/* 是否封顶 */
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
 		building_info.setM_Building_covers(this.tf_m_Building_covers.getText());/* 建筑面积 */
@@ -2185,10 +2195,10 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_isFitPlan(this.cb_isFullTop_yes.isSelected() ? "已封顶"
-				: (this.cb_isFullTop_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
-		building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
-				: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
+				: false);/* 是否封顶 */
+		//building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
+		//		: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
 
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
@@ -2365,6 +2375,9 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 	private javax.swing.JLabel jLabel62;
 	private javax.swing.JLabel jLabel63;
 	private javax.swing.JLabel jLabel64;
+	private javax.swing.JLabel jLabel65;
+	private javax.swing.JLabel jLabel66;
+	private javax.swing.JLabel jLabel67;
 	private javax.swing.JLabel jLabel7;
 	private javax.swing.JLabel jLabel8;
 	private javax.swing.JLabel jLabel9;
