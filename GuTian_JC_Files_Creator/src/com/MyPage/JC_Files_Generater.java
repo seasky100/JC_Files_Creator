@@ -2127,6 +2127,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		/* 创建案件天伦按钮事件 */
 		file_other_info.setM_Meeting_date(this.tf_m_Meeting_date.getText());//获取案卷年份
 		file_other_info.setM_Files_year(this.tf_m_Files_year.getText());//获取案卷年份
+		//tf_m_Litigant_ICcountry
+		
 		file_other_info.setM_Handler1_name(this.tf_m_Handler1_name.getText());/* 获取承办人1 */
 		file_other_info.setM_Handler2_name(this.tf_m_Handler2_name.getText());/* 获取承办人2 */
 		file_other_info.setM_Land_town(this.tf_m_Land_town.getText());//获取违法地点所在乡镇
