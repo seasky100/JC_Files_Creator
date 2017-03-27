@@ -545,7 +545,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
                       <Component id="CreateCaseReport" min="-2" pref="275" max="-2" attributes="0"/>
-                      <EmptySpace pref="233" max="32767" attributes="0"/>
+                      <EmptySpace pref="217" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
@@ -861,7 +861,7 @@
                     <Property name="columns" type="int" value="20"/>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="&#x5176;&#x4e2d;&#x6c34;&#x7530;xxxx&#x5e73;&#x65b9;&#x7c73;&#xff0c;&#x65f1;&#x5730;xxxx&#x5e73;&#x65b9;&#x7c73;&#xff0c;&#x5efa;&#x5236;&#x9547;xxxx&#x5e73;&#x65b9;&#x7c73;"/>
+                    <Property name="text" type="java.lang.String" value="&#x5176;&#x4e2d;&#x6c34;&#x7530;&#x9762;&#x79ef;xxxx&#x5e73;&#x65b9;&#x7c73;&#xff0c;&#x65f1;&#x5730;&#x9762;&#x79ef;xxxx&#x5e73;&#x65b9;&#x7c73;&#xff0c;&#x5efa;&#x5236;&#x9547;&#x9762;&#x79ef;xxxx&#x5e73;&#x65b9;&#x7c73;"/>
                   </Properties>
                 </Component>
               </SubComponents>

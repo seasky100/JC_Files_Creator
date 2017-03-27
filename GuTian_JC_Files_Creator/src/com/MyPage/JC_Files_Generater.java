@@ -737,7 +737,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		ta_m_Land_type_info.setLineWrap(true);
 		ta_m_Land_type_info.setRows(5);
 		ta_m_Land_type_info
-				.setText("\u5176\u4e2d\u6c34\u7530xxxx\u5e73\u65b9\u7c73\uff0c\u65f1\u5730xxxx\u5e73\u65b9\u7c73\uff0c\u5efa\u5236\u9547xxxx\u5e73\u65b9\u7c73");
+				.setText("\u5176\u4e2d\u6c34\u7530\u9762\u79efxxxx\u5e73\u65b9\u7c73\uff0c\u65f1\u5730\u9762\u79efxxxx\u5e73\u65b9\u7c73\uff0c\u5efa\u5236\u9547\u9762\u79efxxxx\u5e73\u65b9\u7c73");
 		jScrollPane1.setViewportView(ta_m_Land_type_info);
 
 		ta_m_Land_origin.setColumns(20);
@@ -1962,8 +1962,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
-				: false);/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes
+				.isSelected() ? true : false);/* 是否封顶 */
 
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
@@ -1995,8 +1995,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
-				: false);/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes
+				.isSelected() ? true : false);/* 是否封顶 */
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
 		building_info.setM_Building_covers(this.tf_m_Building_covers.getText());/* 建筑面积 */
@@ -2049,8 +2049,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
-				: false);/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes
+				.isSelected() ? true : false);/* 是否封顶 */
 
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
@@ -2128,7 +2128,7 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		file_other_info.setM_Meeting_date(this.tf_m_Meeting_date.getText());//获取案卷年份
 		file_other_info.setM_Files_year(this.tf_m_Files_year.getText());//获取案卷年份
 		//tf_m_Litigant_ICcountry
-		
+
 		file_other_info.setM_Handler1_name(this.tf_m_Handler1_name.getText());/* 获取承办人1 */
 		file_other_info.setM_Handler2_name(this.tf_m_Handler2_name.getText());/* 获取承办人2 */
 		file_other_info.setM_Land_town(this.tf_m_Land_town.getText());//获取违法地点所在乡镇
@@ -2141,8 +2141,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_floors(this.tf_m_Building_floors.getText());/* 房屋层数 */
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
-		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
-				: false);/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes
+				.isSelected() ? true : false);/* 是否封顶 */
 		building_info.setM_base_covers(this.tf_m_base_covers.getText());/* 占地面积 */
 		building_info.setM_Land_type_info(this.ta_m_Land_type_info.getText());/* 地类文本信息 */
 		building_info.setM_Building_covers(this.tf_m_Building_covers.getText());/* 建筑面积 */
@@ -2197,8 +2197,8 @@ public class JC_Files_Generater extends javax.swing.JFrame {
 		building_info.setM_Building_structure(this.tf_m_Building_structure
 				.getText());/* 房屋结构 */
 
-		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes.isSelected() ? true
-				: false);/* 是否封顶 */
+		building_info.setM_Building_isFullTop(this.cb_isFullTop_yes
+				.isSelected() ? true : false);/* 是否封顶 */
 		//building_info.setM_isFitPlan(this.cb_isMoveIn_yes.isSelected() ? "已封顶"
 		//		: (this.cb_isMoveIn_no.isSelected() ? "未封顶" : "xxxx"));/* 是否封顶 */
 
